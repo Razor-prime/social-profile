@@ -1,0 +1,29 @@
+#logo,#menu,#manage,#like,#heart,#share{
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-radius 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+    border-radius: 20%;
+    color: white;
+  }
+
+  .text__send{
+    background-color: var(--first);
+    color: white;
+  }
+  

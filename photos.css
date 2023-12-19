@@ -1,0 +1,30 @@
+.container__photos{
+    background-color: var(--first);
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.container__flex__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container__flex__img{
+    background-color: white;
+    margin: 100px;
+    border-radius: 5%;
+}
+
+.img__photos{
+    max-width: 90%;
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 100%;
+}

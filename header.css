@@ -1,0 +1,21 @@
+.container__top{
+    background-color: var(--first);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#menu{
+    margin-bottom: 10px;
+}
+
+.container__search{
+    display: flex;
+    justify-content: center;
+}
+
+.search__nav{
+    width: 20%;
+    border-radius: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="root.css">
+    <link rel="stylesheet" href="cover.css">
+    <link rel="stylesheet" href="details.css">
+    <link rel="stylesheet" href="photos.css">
+    <link rel="stylesheet" href="friend.css">
+    <link rel="stylesheet" href="publication.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="icon" href="person_FILL0_wght400_GRAD0_opsz24.svg">
+</head>
+<body>
+    <header>
+        <div class="container__top">
+            <span class="material-symbols-outlined" id="menu">
+                menu
+                </span>
+                <span class="material-symbols-outlined" id="manage">
+                    manage_accounts
+                    </span>
+                    <form action="" class="container__search">
+                        <span class="material-symbols-outlined" id="logo">
+                            token
+                            </span>
+                        <input type="text" placeholder="Search" class="search__nav">
+                    </form>
+        </div>
+    </header>
+
+    <section>
+        <div class="container__cover">
+            <div class="container__img">
+                <img src="academia-x.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container__user">
+        <img  src="marcus.jpg" alt="">
+
+        <div > 
+            <button class="bts__user">
+                <span class="material-symbols-outlined">
+                    person_add
+                    </span>
+                    <span>Add friend</span>
+            </button>
+            
+            <button class="bts__user">
+                <span class="material-symbols-outlined">
+                    stream_apps
+                    </span>
+                    <span>Message</span>
+            </button>
+            
+        </div>
+        <h1>Marcus Jr Cabello</h1>
+        <nav class="container_links">
+            <a href="#post">Post</a>
+            <a href="#friends">Friends</a>
+            <a href="#photos">Photos</a>
+        </nav>
+        </div>
+    </section>
+
+    <section class="container__color">  
+       <div class="contaier_details">
+        <h2>Details</h2>
+        <hr>
+        <span> <span class="material-symbols-outlined">
+            home
+            </span>From <a href="" class="links__info">Dallas,Tx.</a>
+            
+        </span>
+
+        <span><span class="material-symbols-outlined">
+            location_city
+            </span> Live <a href="" class="links__info">Dallas,Tx.</a>
+
+        </span>
+
+        <span class="Birtday__text">
+
+            <span class="material-symbols-outlined" id="cake" >
+                cake
+                </span>Birthday on August 29th.
+            </span>
+       </div>
+    </section>
+
+    <section class="container__photos" id="photos">
+        <div class="container__flex__img">
+            <h2>Photos</h2>
+            <hr>
+           <img src="html.png"  class="img__photos">
+            <img src="css.png"  class="img__photos">
+            <img src="js.png"  class="img__photos">
+            <img src="dom.png"  class="img__photos">
+        </div>
+    </section>
+
+    <section class="container__friends" id="friends">
+        <div class="container__friends__img">
+            <h2>friends</h2>
+            <hr>
+            <img src="kevin.png"  class="kevin__friend">
+            <span>Kevin Rodrigo Zenteno</span>
+        </div>
+    </section>
+
+    <section class="container__publication" id="post">
+        <div class="sub__text_post">
+            <h3>Publications</h3>
+        </div>
+
+        <div class="container__post_img">
+            <div class="comment__user">
+                <img src="marcus.jpg" alt="">
+                <h2>Marcus Jr cabello</h2>
+                <span>a moment ago.</span>
+                <span>Thank you academia-x 😉💯.</span>
+                <hr>
+            </div> 
+            <img src="html.png"  class="img__post">
+            <img src="css.png" class="img__post">
+            <img src="js.png" class="img__post">
+            <img src="dom.png" class="img__post">
+
+            <hr>
+            <div>
+                <span class="material-symbols-outlined" id="share">
+                    share
+                    </span>
+                    <span class="material-symbols-outlined" id="heart">
+                        favorite
+                        </span>
+                        
+                        <span class="material-symbols-outlined" id="like">
+                            thumb_up
+                            </span>
+            </div>
+            <hr>
+            <form action="" class="container__text_area">
+                <span class="material-symbols-outlined">
+                    stylus_note
+                    </span>
+                <textarea " id="miTexto" cols="20" rows="5" placeholder="Write something to Marcus..." ></textarea>
+            </form>
+            <form action=""><button class="text__send">Send</button></form>
+    </section>
+</body>
+</html>

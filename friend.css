@@ -1,0 +1,25 @@
+.container__friends{
+    background-color: var(--second);
+    padding: 50px;
+}
+
+
+
+
+
+.container__friends__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10%;
+}
+
+
+
+
+.kevin__friend{
+    margin: 0px;
+    padding: 0px;
+    border: solid black 3px;
+}

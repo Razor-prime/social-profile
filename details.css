@@ -1,0 +1,56 @@
+.container__color{
+    background-color: var(--second);
+    padding: 50px;
+}
+
+.container__color{
+    display: flex;
+    justify-content: center;
+
+}
+
+.contaier_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+span{
+    margin: 20px;
+}
+
+.links__info{
+    color: blueviolet;
+    font-size: 1.5em;
+}
+
+.Birtday__text{
+    font-size: 1.5em;
+    color: gray;
+}
+
+.contaier_details{
+    margin-top: 5%;
+    background-color: white;
+    width: 50%;
+    height: 100%; 
+}
+
+.contaier_details{
+    border-radius: 2em;
+}
+
+hr{
+    width: 100%;
+}
+
+h2{
+    font-size: 1.5em;
+    margin: 20px;
+}
+
+
+#cake{
+    color: black;
+}
